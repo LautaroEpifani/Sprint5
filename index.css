@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-global {
+  display: flex;
+}
+
+.container-blob {
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-image: url(images/blob1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
+
+.blobP {
+  width: 200px;
+  height: 250px;
+  background-image: url(images/blob2.svg);
+  background-repeat: no-repeat;
+  align-self: flex-end;
+  background-size: 100%;
+}
+
+.blobT {
+  width: 200px;
+  height: 250px;
+  background-image: url(images/blob3.svg);
+  background-repeat: no-repeat;
+  align-self: flex-start;
+  background-size: 100%;
+}
+
+.container-joke {
+  width: 37%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.container-clima {
+  display: flex;
+  padding: 10px;
+}
+
+.logo-clima {
+  width: 2%;
+  height: 2%;
+  margin-right: 8px;
+}
+
+.temp {
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  font-family: "Goblin One", cursive;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+}
+
+.next {
+  
+  font-family: "Goblin One", cursive;
+}
+
+.joke {
+  font-family: "Roboto", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 25px;
+}

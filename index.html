@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-clima">
+      <img class="logo-clima" src="images/sol.png" alt="" />
+      <div class="weather" id="weather"></div>
+    </div>
+    <div class="container-global">
+      <div class="blobP" id="blobP"></div>
+      <div class="container-blob" id="container_blob">
+        <div class="container-joke">
+          <h4 class="">Ready to laugh?</h4>
+          <div class="joke" id="joke"></div>
+          <div class="score">
+            <button
+              class="button btn btn-warning my-4 px-4 py-2 rounded-circle"
+              type="button"
+              onclick="getScore(1)"
+            >
+              Awful
+            </button>
+            <button
+              class="button btn btn-warning my-4 px-4 py-2 rounded-circle"
+              type="button"
+              onclick="getScore(2)"
+            >
+              Approved
+            </button>
+            <button
+              class="button btn btn-warning my-4 px-4 py-2 rounded-circle"
+              type="button"
+              onclick="getScore(3)"
+            >
+              Great
+            </button>
+          </div>
+          <button
+            class="next btn btn-info m-4 p-2"
+            type="button"
+            onclick="getRandomJoke()"
+          >
+            Next Joke
+          </button>
+        </div>
+      </div>
+      <div class="blobT" id="blobT"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
